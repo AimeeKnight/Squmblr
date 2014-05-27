@@ -5,4 +5,5 @@ class User < ActiveRecord::Base
          :rememberable, :trackable, :validatable
 
   validates :username, uniqueness: true
+  has_many :posts
 end
