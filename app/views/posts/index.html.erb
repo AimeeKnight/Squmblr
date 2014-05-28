@@ -4,6 +4,7 @@
   <% @posts.each do |post| %>
     <div class="post">
       <%= post.content %>
+      <%= image_tag post.image_url.to_s %>
       <%= post.created_at %>
     </div>
   <% end %>

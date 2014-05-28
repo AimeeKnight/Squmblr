@@ -1,7 +1,10 @@
-<%= simple_form_for(@post) do |f| %>
+<%= simple_form_for @post, html: {multipart: true} do |f| %>
 
   <div class="field">
     <%= f.input :content, :as => :text %>
+  </div>
+  <div class="field">
+    <%= f.input :image, :as => :file %>
   </div>
   <br />
   <div class="actions">

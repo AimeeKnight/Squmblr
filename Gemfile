@@ -14,6 +14,8 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'simple_form'
 gem 'turbolinks'
 gem 'uglifier', '>= 1.3.0'
+gem 'rmagick'
+gem 'carrierwave'
 # gem 'unicorn'
 
 group :development do
